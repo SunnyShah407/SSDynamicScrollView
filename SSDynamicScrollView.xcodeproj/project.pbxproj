@@ -12,6 +12,8 @@
 		A399C08F1CF0B65F00D982AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A399C08D1CF0B65F00D982AD /* Main.storyboard */; };
 		A399C0911CF0B65F00D982AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A399C0901CF0B65F00D982AD /* Assets.xcassets */; };
 		A399C0941CF0B65F00D982AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A399C0921CF0B65F00D982AD /* LaunchScreen.storyboard */; };
+		A399C09C1CF0B90700D982AD /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A399C09B1CF0B90700D982AD /* CustomView.swift */; };
+		A399C09E1CF0B91300D982AD /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A399C09D1CF0B91300D982AD /* CustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A399C0901CF0B65F00D982AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A399C0931CF0B65F00D982AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A399C0951CF0B65F00D982AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A399C09B1CF0B90700D982AD /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		A399C09D1CF0B91300D982AD /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				A399C0891CF0B65F00D982AD /* AppDelegate.swift */,
 				A399C08B1CF0B65F00D982AD /* ViewController.swift */,
+				A399C09B1CF0B90700D982AD /* CustomView.swift */,
+				A399C09D1CF0B91300D982AD /* CustomView.xib */,
 				A399C08D1CF0B65F00D982AD /* Main.storyboard */,
 				A399C0901CF0B65F00D982AD /* Assets.xcassets */,
 				A399C0921CF0B65F00D982AD /* LaunchScreen.storyboard */,
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A399C0941CF0B65F00D982AD /* LaunchScreen.storyboard in Resources */,
+				A399C09E1CF0B91300D982AD /* CustomView.xib in Resources */,
 				A399C0911CF0B65F00D982AD /* Assets.xcassets in Resources */,
 				A399C08F1CF0B65F00D982AD /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A399C09C1CF0B90700D982AD /* CustomView.swift in Sources */,
 				A399C08C1CF0B65F00D982AD /* ViewController.swift in Sources */,
 				A399C08A1CF0B65F00D982AD /* AppDelegate.swift in Sources */,
 			);
@@ -250,6 +258,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SSDynamicScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sunny.SSDynamicScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SSDynamicScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sunny.SSDynamicScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
